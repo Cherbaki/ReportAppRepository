@@ -15,7 +15,7 @@ using System.Windows.Forms;
 
 namespace Report.Pages
 {
-    public partial class MonthsDGV : UserControl
+    public partial class dashboardControl : UserControl
     {
 
         private readonly ReporterInformationRepository _reporterInformationRepository;
@@ -23,7 +23,7 @@ namespace Report.Pages
         private DataTable? _dataTable;
 
 
-        public MonthsDGV()
+        public dashboardControl()
         {
             InitializeComponent();
 
@@ -182,19 +182,5 @@ namespace Report.Pages
             mothsDGV.AllowUserToAddRows = false;
         }
 
-        private void mothsDGV_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void RecordsChartPanel_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void MonthsDGV_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Report.Pages
 {
-    partial class MonthsDGV
+    partial class dashboardControl
     {
         /// <summary> 
         /// Required designer variable.
@@ -42,7 +42,6 @@
             this.RecordsChartPanel.Name = "RecordsChartPanel";
             this.RecordsChartPanel.Size = new System.Drawing.Size(456, 375);
             this.RecordsChartPanel.TabIndex = 0;
-            this.RecordsChartPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.RecordsChartPanel_Paint);
             // 
             // mothsDGV
             // 
@@ -53,7 +52,6 @@
             this.mothsDGV.RowHeadersWidth = 51;
             this.mothsDGV.Size = new System.Drawing.Size(1381, 306);
             this.mothsDGV.TabIndex = 1;
-            this.mothsDGV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.mothsDGV_CellContentClick);
             // 
             // label1
             // 
@@ -75,7 +73,6 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "MonthsDGV";
             this.Size = new System.Drawing.Size(1610, 728);
-            this.Load += new System.EventHandler(this.MonthsDGV_Load);
             ((System.ComponentModel.ISupportInitialize)(this.mothsDGV)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -86,7 +86,7 @@
         private Button RIButton;
         private Button dashboardButton;
         private Pages.reportersInformationControl ReportersInformationControl = new();
-        private Pages.MonthsDGV DashboardControl = new();
+        private Pages.dashboardControl DashboardControl = new();
         public Pages.recordsControl RecordsControl = new();
     }
 }
